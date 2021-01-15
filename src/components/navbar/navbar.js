@@ -13,10 +13,10 @@ export default function Navbar() {
                     <i className="fas fa-bars" />
                 </label>
                 <ul>
-                        <li><Link to="/"><a className="active">Home</a></Link></li>
-                        <li><Link to="/about"><a>About</a></Link></li>
-                        <li><Link to="/login"><a>Login</a></Link></li>
-                        <li><Link to="/contact"><a>Contact</a></Link></li>
+                        <li><Link to="/agenda-app/"><a className="active">Home</a></Link></li>
+                        <li><Link to="/agenda-app/about"><a>About</a></Link></li>
+                        <li><Link to="/agenda-app/login"><a>Login</a></Link></li>
+                        <li><Link to="/agenda-app/contact"><a>Contact</a></Link></li>
                 </ul>
             </nav>
 
