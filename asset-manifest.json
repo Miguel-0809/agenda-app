@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/agenda-app/static/css/main.72b30016.chunk.css",
-    "main.js": "/agenda-app/static/js/main.6e0f4bc6.chunk.js",
-    "main.js.map": "/agenda-app/static/js/main.6e0f4bc6.chunk.js.map",
+    "main.js": "/agenda-app/static/js/main.0ed77e6d.chunk.js",
+    "main.js.map": "/agenda-app/static/js/main.0ed77e6d.chunk.js.map",
     "runtime-main.js": "/agenda-app/static/js/runtime-main.8436e26a.js",
     "runtime-main.js.map": "/agenda-app/static/js/runtime-main.8436e26a.js.map",
     "static/js/2.f6998caf.chunk.js": "/agenda-app/static/js/2.f6998caf.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.8436e26a.js",
     "static/js/2.f6998caf.chunk.js",
     "static/css/main.72b30016.chunk.css",
-    "static/js/main.6e0f4bc6.chunk.js"
+    "static/js/main.0ed77e6d.chunk.js"
   ]
 }
