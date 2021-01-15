@@ -1,2 +1,0 @@
-(this["webpackJsonpagenda-app"]=this["webpackJsonpagenda-app"]||[]).push([[0],{9:function(e,n,t){"use strict";t.r(n);var c=t(0),a=t(1),r=t.n(a),d=t(3);var s=function(){return Object(c.jsx)("div",{children:Object(c.jsx)("p",{children:"Hola mundo"})})};t.n(d).a.render(Object(c.jsx)(r.a.StrictMode,{children:Object(c.jsx)(s,{})}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.937a4866.chunk.js.map
