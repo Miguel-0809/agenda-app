@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from 'react-router-dom';
 import './navbar.css'
 
 export default function Navbar() {
@@ -12,10 +13,10 @@ export default function Navbar() {
                     <i className="fas fa-bars" />
                 </label>
                 <ul>
-                    <li><a className="active" href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Feedback</a></li>
+                        <li><Link to="/"><a className="active">Home</a></Link></li>
+                        <li><Link to="/about"><a>About</a></Link></li>
+                        <li><Link to="/login"><a>Login</a></Link></li>
+                        <li><Link to="/contact"><a>Contact</a></Link></li>
                 </ul>
             </nav>
 
