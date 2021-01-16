@@ -8,6 +8,9 @@ import About from './about'
 import Contact from './contact'
 import Login from './login'
 
+// Extra Style
+import  '../components/contact/contact.css'
+
 export default function Home() {
     return (
         <Container>

@@ -1,11 +1,11 @@
 import React from 'react'
-import Container from '../templates/container'
 import { Link } from 'react-router-dom';
 
 export default function Login() {
     return (
         <div>
-            <form className="row justify-content-center p-5 m-4">
+            <h3 className="text-center">Login</h3>
+            <form className="row justify-content-center p-3">
                 <fieldset className="border p-5">
                     <div className="mb-3">
                         <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
