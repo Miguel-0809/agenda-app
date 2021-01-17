@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/agenda-app/static/css/main.2796d2b0.chunk.css",
-    "main.js": "/agenda-app/static/js/main.a15442d3.chunk.js",
-    "main.js.map": "/agenda-app/static/js/main.a15442d3.chunk.js.map",
+    "main.js": "/agenda-app/static/js/main.a160d5ad.chunk.js",
+    "main.js.map": "/agenda-app/static/js/main.a160d5ad.chunk.js.map",
     "runtime-main.js": "/agenda-app/static/js/runtime-main.8436e26a.js",
     "runtime-main.js.map": "/agenda-app/static/js/runtime-main.8436e26a.js.map",
-    "static/js/2.2150dc69.chunk.js": "/agenda-app/static/js/2.2150dc69.chunk.js",
-    "static/js/2.2150dc69.chunk.js.map": "/agenda-app/static/js/2.2150dc69.chunk.js.map",
+    "static/js/2.81fa2fb3.chunk.js": "/agenda-app/static/js/2.81fa2fb3.chunk.js",
+    "static/js/2.81fa2fb3.chunk.js.map": "/agenda-app/static/js/2.81fa2fb3.chunk.js.map",
     "index.html": "/agenda-app/index.html",
     "static/css/main.2796d2b0.chunk.css.map": "/agenda-app/static/css/main.2796d2b0.chunk.css.map",
-    "static/js/2.2150dc69.chunk.js.LICENSE.txt": "/agenda-app/static/js/2.2150dc69.chunk.js.LICENSE.txt"
+    "static/js/2.81fa2fb3.chunk.js.LICENSE.txt": "/agenda-app/static/js/2.81fa2fb3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8436e26a.js",
-    "static/js/2.2150dc69.chunk.js",
+    "static/js/2.81fa2fb3.chunk.js",
     "static/css/main.2796d2b0.chunk.css",
-    "static/js/main.a15442d3.chunk.js"
+    "static/js/main.a160d5ad.chunk.js"
   ]
 }
