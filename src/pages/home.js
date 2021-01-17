@@ -8,6 +8,8 @@ import About from './about'
 import Contact from './contact'
 import Login from './login'
 import Dayly from './dayly'
+import Register from './register'
+import ForgotPass from './forgotPassword'
 
 
 // Extra Style
@@ -24,7 +26,7 @@ export default function Home() {
                         <hr className="my-4" />
                         <p className="lead">
                             <Link to="/about">
-                                <a className="btn btn-primary btn-lg" role="button">Learn more</a>
+                                <a className="btn btn-primary btn-lg" role="button" href="#">Learn more</a>
                             </Link>
                         </p>
                     </div>
@@ -36,7 +38,8 @@ export default function Home() {
             <Route path="/agenda-app/contact" component={Contact} />
             <Route path="/agenda-app/login" component={Login} />
             <Route path="/agenda-app/dayly" component={Dayly} />
-
+            <Route path="/agenda-app/register" component={Register} />
+            <Route path="/agenda-app/forgot-password" component={ForgotPass} />
            
 
         </Container>

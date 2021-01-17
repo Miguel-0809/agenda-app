@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-export default function Login() {
+export default function Register() {
     return (
         <div>
-            <h3 className="text-center">Login</h3>
+            <h3 className="text-center">Sign Up</h3>
             <form className="row justify-content-center p-3">
                 <fieldset className="border pt-5 pr-5 pl-5 pb-2">
                     <div className="mb-3">
@@ -14,18 +14,20 @@ export default function Login() {
                     </div>
                     <div className="mb-3">
                         <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-                        <input type="password" className="form-control" id="exampleInputPassword1" />
+                        <input type="password" className="form-control" />
                     </div>
 
-                    <button type="submit" className="btn btn-primary w-100">Login</button>
-
-                    <div>
-                        <label htmlFor="exampleInputEmail1" className="pt-4 w-100 text-center"><Link to="/agenda-app/forgot-password"><a><p >Forgot Password?</p></a></Link></label>
+                    <div className="mb-3">
+                        <label htmlFor="exampleInputPassword1" className="form-label">Password Confirmation</label>
+                        <input type="password" className="form-control" /><br/>
                     </div>
+
+                    <button type="submit" className="btn btn-primary w-100 mb-3">Sign Up</button>
+
                 </fieldset>
             </form>
 
-            <p className="text-center">Need an account? <label htmlFor="exampleInputEmail1" className="pt-3"><Link to="/agenda-app/register"><a><p >Sign Up</p></a></Link></label></p>
+            <p className="text-center">Already have an account? <label htmlFor="exampleInputEmail1" className="pt-3"><Link to="/agenda-app/login"><a><p >Login</p></a></Link></label></p>
         </div>
     )
 }
