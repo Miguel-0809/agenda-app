@@ -7,7 +7,7 @@ export default function Container(props) {
         <div>
             <Router>
                 <Navbar />
-                <div className="container p-4">
+                <div className="container p-2">
                     {props.children}
                 </div>
             </Router>

@@ -7,6 +7,8 @@ import { Route,Link } from 'react-router-dom';
 import About from './about'
 import Contact from './contact'
 import Login from './login'
+import Dayly from './dayly'
+
 
 // Extra Style
 import  '../components/contact/contact.css'
@@ -33,6 +35,9 @@ export default function Home() {
             <Route path="/agenda-app/about" component={About} />
             <Route path="/agenda-app/contact" component={Contact} />
             <Route path="/agenda-app/login" component={Login} />
+            <Route path="/agenda-app/dayly" component={Dayly} />
+
+           
 
         </Container>
     )
